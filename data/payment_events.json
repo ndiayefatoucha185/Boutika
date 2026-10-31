@@ -1,0 +1,78 @@
+[
+  {
+    "id": "pay-wave-1793262855658",
+    "gateway": "wave",
+    "eventType": "checkout.session.completed",
+    "orderNumber": "BK-SEC-2026",
+    "orderId": "BK-SEC-2026",
+    "amount": 200,
+    "currency": "XOF",
+    "status": "paye",
+    "receivedAt": "2026-10-29T08:34:15.658Z",
+    "rawEventId": "evt_post_under_004",
+    "integrityNote": "Commande BK-SEC-2026 déjà confirmée payée. Aucun changement de statut."
+  },
+  {
+    "id": "pay-wave-1793262855647",
+    "gateway": "wave",
+    "eventType": "checkout.session.completed",
+    "orderNumber": "BK-SEC-2026",
+    "orderId": "BK-SEC-2026",
+    "amount": 45000,
+    "currency": "XOF",
+    "status": "paye",
+    "receivedAt": "2026-10-29T08:34:15.647Z",
+    "rawEventId": "evt_legit_003"
+  },
+  {
+    "id": "pay-wave-1793262855641",
+    "gateway": "wave",
+    "eventType": "checkout.session.completed",
+    "orderNumber": "BK-SEC-2026",
+    "orderId": "BK-SEC-2026",
+    "amount": 1000,
+    "currency": "XOF",
+    "status": "echec",
+    "receivedAt": "2026-10-29T08:34:15.641Z",
+    "rawEventId": "evt_under_002",
+    "integrityNote": "Alerte montant insuffisant : Reçu 1000 FCFA, attendu 45000 FCFA. Paiement refusé."
+  },
+  {
+    "id": "pay-wave-1793262855637",
+    "gateway": "wave",
+    "eventType": "checkout.session.completed",
+    "orderNumber": "BK-SEC-2026",
+    "orderId": "BK-SEC-2026",
+    "amount": 45000,
+    "currency": "XOF",
+    "status": "echec",
+    "receivedAt": "2026-10-29T08:34:15.637Z",
+    "rawEventId": "evt_usd_001",
+    "integrityNote": "Alerte devise invalide : Reçu USD, attendu XOF. Paiement rejeté."
+  },
+  {
+    "id": "pay-wave-1793258509874",
+    "gateway": "wave",
+    "eventType": "checkout.session.completed",
+    "orderNumber": "BK-TEST-999",
+    "orderId": "BK-TEST-999",
+    "amount": 35000,
+    "currency": "XOF",
+    "status": "paye",
+    "receivedAt": "2026-10-29T07:21:49.874Z",
+    "rawEventId": "evt_legit_001"
+  },
+  {
+    "id": "pay-wave-1793258509851",
+    "gateway": "wave",
+    "eventType": "checkout.session.completed",
+    "orderNumber": "BK-TEST-999",
+    "orderId": "BK-TEST-999",
+    "amount": 500,
+    "currency": "XOF",
+    "status": "echec",
+    "receivedAt": "2026-10-29T07:21:49.851Z",
+    "rawEventId": "evt_underpay_001",
+    "integrityNote": "Alerte montant insuffisant : Reçu 500 FCFA, attendu 35000 FCFA. Paiement refusé."
+  }
+]

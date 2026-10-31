@@ -1,0 +1,192 @@
+[
+  {
+    "id": "srv-msn-1793262855666",
+    "title": "Mission Audit des Quotas Commerciaux",
+    "targetObjective": "Contrôle des plafonds Standard (50), Premium (150) et VIP (500)",
+    "durationHours": 3,
+    "startedAt": "2026-10-29T08:34:15.666Z",
+    "expiresAt": "2026-10-29T11:34:15.666Z",
+    "status": "active",
+    "auditRunCount": 1,
+    "lastAuditRunAt": "2026-10-29T08:34:15.666Z",
+    "logs": [
+      {
+        "timestamp": "2026-10-29T08:34:15.666Z",
+        "action": "SERVER_MISSION_LAUNCHED",
+        "details": "Mission enregistrée sur disque et prise en charge par le démon serveur Node.js. L'exécution persistera même après déconnexion ou fermeture du navigateur."
+      },
+      {
+        "timestamp": "2026-10-29T08:34:15.667Z",
+        "action": "QUOTA_RLS_AUDIT_ALERT",
+        "details": "Audit des quotas officiels : 1 boutiques inspectées (Standard 50 max : 1, Premium 150 max : 0, VIP 500 max : 0). Écarts détectés sans suppression automatique : Boutique Test Quota (51/50 produits - Formule STANDARD). Nouvel ajout verrouillé côté serveur."
+      }
+    ]
+  },
+  {
+    "id": "srv-msn-1793258509883",
+    "title": "Mission Audit Démon Sécurité",
+    "targetObjective": "Vérification des quotas et intégrité",
+    "durationHours": 2,
+    "startedAt": "2026-10-29T07:21:49.883Z",
+    "expiresAt": "2026-10-29T09:21:49.883Z",
+    "status": "active",
+    "auditRunCount": 8,
+    "lastAuditRunAt": "2026-10-29T08:32:54.318Z",
+    "logs": [
+      {
+        "timestamp": "2026-10-29T07:21:49.883Z",
+        "action": "SERVER_MISSION_LAUNCHED",
+        "details": "Mission enregistrée sur disque et prise en charge par le démon serveur Node.js. L'exécution persistera même après déconnexion ou fermeture du navigateur."
+      },
+      {
+        "timestamp": "2026-10-29T07:21:49.884Z",
+        "action": "QUOTA_RLS_AUDIT_PASS",
+        "details": "Audit de conformité des quotas : 5 boutiques inspectées (3 sur forfait Standard gratuit). 100% des boutiques respectent strictement les quotas de leur formule. Règle RLS et intégrité validées."
+      },
+      {
+        "timestamp": "2026-10-29T08:26:54.307Z",
+        "action": "QUOTA_RLS_AUDIT_PASS",
+        "details": "Audit de conformité des quotas : 5 boutiques inspectées (3 sur forfait Standard gratuit). 100% des boutiques respectent strictement les quotas de leur formule. Règle RLS et intégrité validées."
+      },
+      {
+        "timestamp": "2026-10-29T08:27:54.308Z",
+        "action": "QUOTA_RLS_AUDIT_PASS",
+        "details": "Audit de conformité des quotas : 5 boutiques inspectées (3 sur forfait Standard gratuit). 100% des boutiques respectent strictement les quotas de leur formule. Règle RLS et intégrité validées."
+      },
+      {
+        "timestamp": "2026-10-29T08:28:54.310Z",
+        "action": "QUOTA_RLS_AUDIT_PASS",
+        "details": "Audit de conformité des quotas : 5 boutiques inspectées (3 sur forfait Standard gratuit). 100% des boutiques respectent strictement les quotas de leur formule. Règle RLS et intégrité validées."
+      },
+      {
+        "timestamp": "2026-10-29T08:29:54.312Z",
+        "action": "QUOTA_RLS_AUDIT_PASS",
+        "details": "Audit de conformité des quotas : 5 boutiques inspectées (3 sur forfait Standard gratuit). 100% des boutiques respectent strictement les quotas de leur formule. Règle RLS et intégrité validées."
+      },
+      {
+        "timestamp": "2026-10-29T08:30:54.314Z",
+        "action": "QUOTA_RLS_AUDIT_PASS",
+        "details": "Audit de conformité des quotas : 5 boutiques inspectées (3 sur forfait Standard gratuit). 100% des boutiques respectent strictement les quotas de leur formule. Règle RLS et intégrité validées."
+      },
+      {
+        "timestamp": "2026-10-29T08:31:54.315Z",
+        "action": "QUOTA_RLS_AUDIT_PASS",
+        "details": "Audit de conformité des quotas : 5 boutiques inspectées (3 sur forfait Standard gratuit). 100% des boutiques respectent strictement les quotas de leur formule. Règle RLS et intégrité validées."
+      },
+      {
+        "timestamp": "2026-10-29T08:32:54.318Z",
+        "action": "QUOTA_RLS_AUDIT_PASS",
+        "details": "Audit de conformité des quotas : 5 boutiques inspectées (3 sur forfait Standard gratuit). 100% des boutiques respectent strictement les quotas de leur formule. Règle RLS et intégrité validées."
+      }
+    ]
+  },
+  {
+    "id": "srv-msn-1793210906079",
+    "title": "Surveillance Flash Passerelles",
+    "targetObjective": "Test expiration automatique",
+    "durationHours": 0.001,
+    "startedAt": "2026-10-28T18:08:26.079Z",
+    "expiresAt": "2026-10-28T18:08:29.679Z",
+    "status": "completed",
+    "auditRunCount": 1,
+    "lastAuditRunAt": "2026-10-28T18:08:26.079Z",
+    "logs": [
+      {
+        "timestamp": "2026-10-28T18:08:26.079Z",
+        "action": "SERVER_MISSION_LAUNCHED",
+        "details": "Mission enregistrée sur disque et prise en charge par le démon serveur Node.js. L'exécution persistera même après déconnexion ou fermeture du navigateur."
+      },
+      {
+        "timestamp": "2026-10-28T18:08:26.079Z",
+        "action": "SYSTEM_HEALTH_AUDIT",
+        "details": "Supervision générale : Uptime 23s, 5 boutiques actives, 3 commandes enregistrées. Démon serveur stable."
+      },
+      {
+        "timestamp": "2026-10-28T18:08:33.333Z",
+        "action": "MISSION_AUTO_COMPLETED",
+        "details": "Durée impartie (0.001h) écoulée. Bilan de clôture : Supervision générale : Uptime 30s, 5 boutiques actives, 3 commandes enregistrées. Démon serveur stable."
+      }
+    ],
+    "summaryReport": "Mission clôturée à 18:08:29. 1 cycle(s) d'audit exécuté(s). Supervision générale : Uptime 30s, 5 boutiques actives, 3 commandes enregistrées. Démon serveur stable."
+  },
+  {
+    "id": "srv-msn-1793210886967",
+    "title": "Audit Quotas et Conformité RLS",
+    "targetObjective": "Vérifier le respect des 50 produits sur Standard",
+    "durationHours": 2,
+    "startedAt": "2026-10-28T18:08:06.967Z",
+    "expiresAt": "2026-10-28T20:08:06.967Z",
+    "status": "completed",
+    "auditRunCount": 1,
+    "lastAuditRunAt": "2026-10-28T18:08:06.967Z",
+    "logs": [
+      {
+        "timestamp": "2026-10-28T18:08:06.967Z",
+        "action": "SERVER_MISSION_LAUNCHED",
+        "details": "Mission enregistrée sur disque et prise en charge par le démon serveur Node.js. L'exécution persistera même après déconnexion ou fermeture du navigateur."
+      },
+      {
+        "timestamp": "2026-10-28T18:08:06.968Z",
+        "action": "QUOTA_RLS_AUDIT_PASS",
+        "details": "Audit de conformité des quotas : 5 boutiques inspectées (3 sur forfait Standard gratuit). 100% des boutiques respectent strictement les quotas de leur formule. Règle RLS et intégrité validées."
+      },
+      {
+        "timestamp": "2026-10-28T18:08:20.689Z",
+        "action": "SERVER_MISSION_STOPPED",
+        "details": "Arrêt forcé et archivage de la mission exécuté côté serveur."
+      }
+    ],
+    "summaryReport": "Mission clôturée manuellement par l'administrateur à 18:08:20. Bilan final : Audit de conformité des quotas : 5 boutiques inspectées (3 sur forfait Standard gratuit). 100% des boutiques respectent strictement les quotas de leur formule. Règle RLS et intégrité validées."
+  },
+  {
+    "id": "srv-msn-1793139067478",
+    "title": "Audit Sécurité RLS et Quotas",
+    "targetObjective": "Vérifier la stricte étanchéité des profils",
+    "durationHours": 1,
+    "startedAt": "2026-10-27T22:11:07.479Z",
+    "expiresAt": "2026-10-27T23:11:07.479Z",
+    "status": "completed",
+    "logs": [
+      {
+        "timestamp": "2026-10-27T22:11:07.479Z",
+        "action": "SERVER_MISSION_LAUNCHED",
+        "details": "Mission enregistrée sur disque et prise en charge par le démon serveur Node.js. L'exécution persistera même après déconnexion ou fermeture du navigateur."
+      },
+      {
+        "timestamp": "2026-10-27T22:11:15.135Z",
+        "action": "SERVER_MISSION_STOPPED",
+        "details": "Arrêt forcé et archivage de la mission exécuté côté serveur."
+      }
+    ],
+    "summaryReport": "Mission clôturée manuellement par l'administrateur à 22:11:15. Paramètres stables."
+  },
+  {
+    "id": "server-mission-01",
+    "title": "Surveillance serveur des Webhooks Wave & Orange Money",
+    "targetObjective": "Écoute continue des webhooks marchands et contrôle de latence des passerelles de paiement.",
+    "durationHours": 24,
+    "startedAt": "2026-10-27T22:10:56.070Z",
+    "expiresAt": "2026-10-28T22:10:56.071Z",
+    "status": "completed",
+    "logs": [
+      {
+        "timestamp": "2026-10-27T22:10:56.071Z",
+        "action": "SERVER_DAEMON_INITIALIZED",
+        "details": "Démon Kimsi serveur initialisé sur disque. Persistance garantie indépendamment du navigateur."
+      },
+      {
+        "timestamp": "2026-10-28T18:08:33.333Z",
+        "action": "GATEWAY_WEBHOOK_AUDIT",
+        "details": "Audit passerelles exécuté : Wave Standby (WAVE_WEBHOOK_SECRET absent), Orange Money Standby (ORANGE_MONEY_MERCHANT_KEY absent), WhatsApp Standby. Total paiements validés par webhooks : 0. [Note de gouvernance : Les passerelles restent en mode sécurisé Standby 503 tant que les clés marchandes bancaires ne sont pas injectées.]"
+      },
+      {
+        "timestamp": "2026-10-29T07:17:43.687Z",
+        "action": "RESUMED_AND_CLOSED",
+        "details": "Le processus serveur a redémarré après expiration de la mission. Clôture automatique enregistrée."
+      }
+    ],
+    "lastAuditRunAt": "2026-10-28T18:08:33.333Z",
+    "auditRunCount": 1,
+    "summaryReport": "Mission clôturée à l'échéance (22:10:56). Audits exécutés pendant la période active."
+  }
+]

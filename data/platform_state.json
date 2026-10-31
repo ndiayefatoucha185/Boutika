@@ -1,0 +1,392 @@
+{
+  "stores": [
+    {
+      "id": "store-quota-test",
+      "name": "Boutique Test Quota",
+      "planId": "standard",
+      "status": "active"
+    }
+  ],
+  "products": [
+    {
+      "id": "p-test-0",
+      "storeId": "store-quota-test",
+      "name": "Article 0",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-1",
+      "storeId": "store-quota-test",
+      "name": "Article 1",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-2",
+      "storeId": "store-quota-test",
+      "name": "Article 2",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-3",
+      "storeId": "store-quota-test",
+      "name": "Article 3",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-4",
+      "storeId": "store-quota-test",
+      "name": "Article 4",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-5",
+      "storeId": "store-quota-test",
+      "name": "Article 5",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-6",
+      "storeId": "store-quota-test",
+      "name": "Article 6",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-7",
+      "storeId": "store-quota-test",
+      "name": "Article 7",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-8",
+      "storeId": "store-quota-test",
+      "name": "Article 8",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-9",
+      "storeId": "store-quota-test",
+      "name": "Article 9",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-10",
+      "storeId": "store-quota-test",
+      "name": "Article 10",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-11",
+      "storeId": "store-quota-test",
+      "name": "Article 11",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-12",
+      "storeId": "store-quota-test",
+      "name": "Article 12",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-13",
+      "storeId": "store-quota-test",
+      "name": "Article 13",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-14",
+      "storeId": "store-quota-test",
+      "name": "Article 14",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-15",
+      "storeId": "store-quota-test",
+      "name": "Article 15",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-16",
+      "storeId": "store-quota-test",
+      "name": "Article 16",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-17",
+      "storeId": "store-quota-test",
+      "name": "Article 17",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-18",
+      "storeId": "store-quota-test",
+      "name": "Article 18",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-19",
+      "storeId": "store-quota-test",
+      "name": "Article 19",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-20",
+      "storeId": "store-quota-test",
+      "name": "Article 20",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-21",
+      "storeId": "store-quota-test",
+      "name": "Article 21",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-22",
+      "storeId": "store-quota-test",
+      "name": "Article 22",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-23",
+      "storeId": "store-quota-test",
+      "name": "Article 23",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-24",
+      "storeId": "store-quota-test",
+      "name": "Article 24",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-25",
+      "storeId": "store-quota-test",
+      "name": "Article 25",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-26",
+      "storeId": "store-quota-test",
+      "name": "Article 26",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-27",
+      "storeId": "store-quota-test",
+      "name": "Article 27",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-28",
+      "storeId": "store-quota-test",
+      "name": "Article 28",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-29",
+      "storeId": "store-quota-test",
+      "name": "Article 29",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-30",
+      "storeId": "store-quota-test",
+      "name": "Article 30",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-31",
+      "storeId": "store-quota-test",
+      "name": "Article 31",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-32",
+      "storeId": "store-quota-test",
+      "name": "Article 32",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-33",
+      "storeId": "store-quota-test",
+      "name": "Article 33",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-34",
+      "storeId": "store-quota-test",
+      "name": "Article 34",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-35",
+      "storeId": "store-quota-test",
+      "name": "Article 35",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-36",
+      "storeId": "store-quota-test",
+      "name": "Article 36",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-37",
+      "storeId": "store-quota-test",
+      "name": "Article 37",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-38",
+      "storeId": "store-quota-test",
+      "name": "Article 38",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-39",
+      "storeId": "store-quota-test",
+      "name": "Article 39",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-40",
+      "storeId": "store-quota-test",
+      "name": "Article 40",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-41",
+      "storeId": "store-quota-test",
+      "name": "Article 41",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-42",
+      "storeId": "store-quota-test",
+      "name": "Article 42",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-43",
+      "storeId": "store-quota-test",
+      "name": "Article 43",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-44",
+      "storeId": "store-quota-test",
+      "name": "Article 44",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-45",
+      "storeId": "store-quota-test",
+      "name": "Article 45",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-46",
+      "storeId": "store-quota-test",
+      "name": "Article 46",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-47",
+      "storeId": "store-quota-test",
+      "name": "Article 47",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-48",
+      "storeId": "store-quota-test",
+      "name": "Article 48",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-49",
+      "storeId": "store-quota-test",
+      "name": "Article 49",
+      "price": 10000,
+      "stock": 5
+    },
+    {
+      "id": "p-test-50",
+      "storeId": "store-quota-test",
+      "name": "Article 50",
+      "price": 10000,
+      "stock": 5
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-sec-2026",
+      "orderNumber": "BK-SEC-2026",
+      "customerName": "Fatou Ndiaye",
+      "total": 45000,
+      "paymentStatus": "paye",
+      "status": "nouvelle"
+    }
+  ],
+  "contactMessages": [
+    {
+      "id": "msg-01",
+      "subject": "Question intégration Wave",
+      "status": "traite"
+    },
+    {
+      "id": "msg-02",
+      "subject": "Demande renseignement commission",
+      "status": "en_attente"
+    }
+  ],
+  "lastSyncedAt": "2026-10-29T08:34:15.633Z"
+}
